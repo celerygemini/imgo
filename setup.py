@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="imgo",
-    version="2.5.7",
+    version="2.5.8",
     author="celerygemini",
     description="Image Dataset Management Toolkit",
     long_description=long_description,
