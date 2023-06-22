@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="imgo",
-    version="2.5.8",
+    version="2.5.9",
     author="celerygemini",
     description="Image Dataset Management Toolkit",
     long_description=long_description,
@@ -13,10 +13,9 @@ setuptools.setup(
     url="https://github.com/celerygemini/imgo",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )
